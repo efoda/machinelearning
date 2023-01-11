@@ -6,7 +6,7 @@ import time
 
 
 # load Vectorizer For Gender Prediction
-imported_vectorizer = open("models/gender_vectorizer.pkl","rb")
+imported_vectorizer = open("models/gender_model_vectorizer.pkl","rb")
 cv = joblib.load(imported_vectorizer)
 
 # load Model For Gender Prediction
@@ -50,3 +50,4 @@ def main():
 
 
 if __name__ == '__main__':
+        main()
